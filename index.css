@@ -1,0 +1,93 @@
+/* .main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-con {
+    padding: 0px 0px 200px 0px;
+    color: green;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.incre {
+    background-color: violet;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.decre {
+    background-color: tomato;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset {
+    background-color: aqua;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .countdown-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .countdown-input label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .countdown-input button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .countdown-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .countdown-display {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
